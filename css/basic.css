@@ -38,22 +38,24 @@ body{
   background:#797066;
   color: #FFF;
   border-left: 1px solid black;
+  padding-top:10px;
+  
 }
 
 #menu li a {
-  display: block;
+ 
   text-decoration: none;
-  padding: 7px 15px;
+  padding-left:15px;
+  padding-right:15px;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  text-align:center;
-  
+  vertical-align:text-top;
 }
 /*Byter färg vid hovering och ser till att */
 #menu li a:hover, meny li:focus{
     background: #9C9084;
-    padding-left:10px;
+        padding-top:9px;
 }
 
 
@@ -71,7 +73,7 @@ body{
 
 #maincontent{
 	height:370px;
-    width:365px;
+    width:350px;
     float:left;
 	background:#EAE7D2;
 	font-size:16px;
@@ -93,7 +95,7 @@ body{
 }
 #subcontent{
     height:370px;
-    width:205px;
+    width:220px;
     float:right;
     background-color:#EAE7D2;
     font-size:9px;
