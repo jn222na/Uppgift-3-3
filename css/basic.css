@@ -6,7 +6,6 @@ body{
 #container{
     height:642px;
     width:600px;
-
      background-image:url('pics/coffey.jpg');
      background-repeat:no-repeat;
      border:1px solid #A7A4A9;
@@ -31,37 +30,37 @@ body{
     float:left;
     font-size:13px;
     text-transform:capitalize;
-    
 }
 #menu li {
   float: left;
   background:#797066;
   color: #FFF;
   border-left: 1px solid black;
-  padding-top:10px;
+  padding-bottom:5px;
+  padding-top:5px;
   
-}
+ }
 
 #menu li a {
- 
   text-decoration: none;
   padding-left:15px;
   padding-right:15px;
   -webkit-transition-duration: 0.2s;
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
-  vertical-align:text-top;
 }
-/*Byter färg vid hovering och ser till att */
+/*Byter färg vid hovering och ser till att hela rutan blir klickbar */
 #menu li a:hover, meny li:focus{
     background: #9C9084;
-        padding-top:9px;
+    padding-bottom:10px;
 }
-
 
 /* Tar bort anchor länken med exakt href */
 [href='#maincontent']{
- display:none;
+    display:none;
+ font-size:0;
+ padding:0;
+ margin:0;
 }
 #content{
     height:392px;
@@ -152,6 +151,7 @@ h2{
 	text-align:left;
 	font-size:0px;
 	padding-left:10px;
+	padding-bottom:20px;
 }
 /*Lägger in egen text och förstorar upp den igen */
 #bottomcontent:after{
