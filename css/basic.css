@@ -1,1 +1,155 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+body{
+    	Font-family: Verdana,Times, Ariel, sans-serif;
+    	color:#797066;
+}
+#container{
+    height:632px;
+    width:600px;
+
+     background-image:url('pics/coffey.jpg');
+     background-repeat:no-repeat;
+     border:1px solid;
+}
+#topbar{
+    background-color:#51473D;
+    text-align:right;
+    width:600px;
+	height:15px;
+    color:white;
+    font-style:oblique;
+    font-size:11px;
+    padding-bottom:2px;
+    
+}
+/* Menyn anpassas får färg samt ändrar så att varje bokstav får stor bokstav */
+#menu{
+    margin-top:183px;
+    height:30px;
+    background-color:#51473D;
+    width:600px;
+    float:left;
+    font-size:13px;
+    text-transform:capitalize;
+    
+}
+#menu li {
+  float: left;
+  background:#797066;
+  color: #FFF;
+  border-left: 1px solid black;
+}
+
+#menu li a {
+  display: block;
+  text-decoration: none;
+  padding: 7px 15px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  text-align:center;
+  
+}
+/*Byter färg vid hovering och ser till att */
+#menu li a:hover, meny li:focus{
+    background: #9C9084;
+    padding-left:10px;
+}
+
+
+/* Tar bort anchor länken med exakt href */
+[href='#maincontent']{
+ display:none;
+}
+#content{
+    height:392px;
+    width:598px;
+    margin-top:200px;
+	background-color:white;
+    
+}
+
+#maincontent{
+	height:370px;
+    width:365px;
+    float:left;
+	background:#EAE7D2;
+	font-size:16px;
+    letter-spacing:1px;
+    font-family:Times;
+    
+}
+#maincontent h1{
+    font-size:30px;
+    font-family:Times;
+    font-weight:normal;
+    padding-left:10px;
+    padding-top:10px;
+}
+#subcontent{
+    height:370px;
+    width:227px;
+    float:right;
+    background-color:#EAE7D2;
+    font-size:9px;
+    border-left: 3px dotted #CCC;
+    line-height:20px;
+    font-family:Verdana;
+    
+}
+/* <p> Taggen får padding */
+#subcontent p{
+    padding-left:5px;
+}
+/* Ser till att Ul listan i subcontent släpper list attributet */
+#subcontent ul{
+       display:inline;
+}
+#subcontent li{
+    padding-left:5px;
+}
+#subcontent h1{
+    font-size:13px;
+    padding-left:5px;
+    padding-top:20px;
+    font-family:Times;
+}  
+h2{
+    font-family:Verdana;
+    font-size:13px;
+    display:inline;
+    padding-left:5px;
+    font-weight:normal;
+}    
+/*Stänger av befintlig text med size 0 */
+#bottomcontent{
+    width:599px;
+    background-color:#EAE7D2;
+    margin-top:200px;
+	font-style:oblique;
+	text-align:left;
+	font-size:0px;
+}
+/*Lägger in egen text och förstorar upp den igen */
+#bottomcontent:after{
+    	content:"\00a9 Högskolan i Kalmar, Institutionen för kommunikation och design";
+        font-size:10px;
+}
+
+img {
+    float:left;
+    margin:5px;
+}
+li{
+	list-style:none;
+}
+.active{
+    list-style:none;
+}
+a:link {color:#000;} 
+a:visited {color:#EAE7D2;}
+a:hover {color:#EAE7D2;}
+a:active {color:#FDB;} 
+
+
+
