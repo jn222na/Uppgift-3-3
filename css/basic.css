@@ -10,6 +10,7 @@ body{
      background-image:url('pics/coffey.jpg');
      background-repeat:no-repeat;
      border:1px solid #A7A4A9;
+     margin:auto;
 }
 #topbar{
     background-color:#51473D;
@@ -20,7 +21,6 @@ body{
     font-style:oblique;
     font-size:11px;
     padding-bottom:2px;
-    
 }
 /* Menyn anpassas får färg samt ändrar så att varje bokstav får stor bokstav */
 #menu{
